@@ -1,0 +1,21 @@
+.widget-view, .widget-layer-view{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.widget-layer-view {
+    overflow-y: auto;
+    margin: 0 auto;
+
+}
+
+.widget-view-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
