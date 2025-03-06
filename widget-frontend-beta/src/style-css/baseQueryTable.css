@@ -1,0 +1,94 @@
+.base-query-table {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.width-base {
+    width: calc(100% / var(--w-column-number));
+}
+
+.base-query-table .query-table__actionBar{
+    display: flex;
+    align-items: center;
+}
+
+.base-query-table .query-table__summary {
+    display: flex;
+    align-items: center;
+}
+
+.base-query-table .query-table__summary .el-text {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.base-query-table .query-table__table {
+    height: 45vh;
+    min-height: 45vh;
+}
+
+.base-query-table .query-table__table .w-base-table {
+    min-height: fit-content !important;
+}
+
+.base-query-table .query-table__pagination {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.el-pagination {
+    font-size: var(--w-font-size-small);
+}
+
+.base-query-table .disabled-btn .el-button span {
+    display: none !important;
+}
+
+.query-content .x-form-basic-widget .x-form-basic-widget__label .x-form-label {
+    font-size: var(--w-font-size-small) !important;
+    color: var(--w-text-color);
+    font-weight: 700;
+}
+
+.query-content .x-form-basic-widget .x-widget-inner-el {
+    font-size: var(--w-font-size-small) !important;
+    color: var(--w-text-color);
+    font-size: var(--w-font-size-small) !important;
+}
+
+.query-content .x-form-basic-widget .x-widget-inner-el .el-input {
+    font-size: var(--w-font-size-small) !important;
+    height: var(--w-line-height-base);
+}
+
+.query-content .x-form-basic-widget .x-widget-inner-el .el-select__wrapper {
+    font-size: var(--w-font-size-small) !important;
+    height: var(--w-line-height-base);
+    min-height: var(--w-line-height-base);
+}
+
+.query-table__actionBar .el-button{
+    height: var(--w-line-height-base);
+}
+
+.query-content .x-form-basic-widget {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.query-table__pagination .el-select .el-select__wrapper{
+    font-size: var(--w-pagination-font-size);
+}
+
+.query-table__pagination .el-input{
+    font-size: var(--w-pagination-font-size);
+}

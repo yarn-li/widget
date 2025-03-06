@@ -1,0 +1,26 @@
+.w-attachment .el-tooltip__trigger:focus-visible {
+    outline: unset !important;
+}
+
+.w-attachment .w-dropdown-link {
+    height: 24px;
+    line-height: 24px;
+    color: #409EFF;
+    cursor: pointer;
+}
+
+.single {
+    display: flex;
+    align-items: center;
+    color: #409Eff;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.single .fileName {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,18 @@
+.select-table {
+    height: 320px;
+    padding-bottom: 50px;
+
+}
+
+.selection-table .x-base-table__td {
+    flex: 1;
+}
+
+.selection-table .el-radio-group{
+    display: block !important;
+    align-items: flex-start;
+}
+
+.selection-table {
+    /* height: calc(100% - 40px); */
+}

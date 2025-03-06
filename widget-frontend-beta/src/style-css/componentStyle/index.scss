@@ -1,0 +1,123 @@
+@import url("./button.scss");
+@import url("./datepicker.scss");
+@import url("./select.scss");
+@import url("./input.scss");
+@import url("./radioSwitchCheckbox.scss");
+@import url("./text.scss");
+
+
+// 以下为全局样式
+
+// 下拉框下拉选项框
+// .el-select__popper {
+//   background-color: var(--background-color) !important;
+
+//   .el-select-dropdown__item {
+//     color: var(--text-color)
+//   }
+
+//   .el-select-dropdown__item.selected,
+//   .el-select-dropdown__item.hover {
+//     background-color: var(--color) !important;
+//   }
+
+//   .el-popper__arrow::before {
+//     background-color: var(--background-color) !important;
+//   }
+
+// }
+
+// 时间选择框
+.el-picker__popper {
+  .el-popper__arrow::before {
+    background-color: var(--background-color) !important;
+  }
+
+  .el-picker-panel__body {
+    background-color: var(--background-color) !important;
+    color: var(--text-color);
+
+    .el-date-picker__time-header,
+    .el-date-range-picker__time-header {
+      .el-input__wrapper {
+        border: 1px var(--border-style) var(--border-color);
+        border-radius: var(--border-radius);
+        background-color: var(--background-color);
+        box-shadow: none;
+
+        .el-input__inner {
+          color: var(--text-color);
+        }
+      }
+
+      .el-icon {
+        color: var(--icon-color)
+      }
+    }
+
+    .el-date-picker__header,
+    .el-date-range-picker__header {
+      .el-date-picker__header-label {
+        color: var(--text-color);
+      }
+
+      .el-picker-panel__icon-btn {
+        .el-icon {
+          color: var(--icon-color);
+        }
+
+      }
+    }
+
+    .el-picker-panel__content {
+      .el-date-table td.current:not(.disabled) .el-date-table-cell__text {
+        background-color: var(--active-color) !important;
+      }
+
+      .el-date-table td.in-range .el-date-table-cell {
+        background-color: var(--info-color) !important;
+      }
+    }
+  }
+
+  .el-picker-panel__footer {
+    background-color: var(--background-color) !important;
+
+    .el-picker-panel__link-btn {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      border: 1px var(--border-style) var(--border-color)
+    }
+  }
+
+  // 时间选择框样式
+  .el-time-panel,
+  .el-time-range-picker {
+    background-color: var(--background-color) !important;
+
+    .el-time-panel__content,
+    .el-time-range-picker__content {
+      .el-time-range-picker__header {
+        color: var(--text-color);
+      }
+
+      .el-time-spinner__wrapper {
+        li {
+          color: var(--text-color);
+        }
+
+        li:hover {
+          background-color: var(--active-color)
+        }
+      }
+    }
+
+    .el-time-panel__footer {
+      .el-time-panel__btn {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        border: 1px var(--border-style) var(--border-color)
+      }
+    }
+  }
+}

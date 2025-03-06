@@ -1,0 +1,61 @@
+.inputStyle {
+  border-color: var(--hover-border-color);
+
+  // input基础样式
+  .el-input__wrapper {
+    border: 1px var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    box-shadow: none;
+
+    .el-input__inner {
+      color: var(--text-color);
+    }
+  }
+
+  .el-input__wrapper.is-focus {
+    border: 1px var(--border-style) var(--hover-border-color);
+  }
+
+  // .el-input__wrapper:hover {
+  //   border: 1px var(--border-style) var(--hover-border-color);
+  // }
+
+  // inputNumber
+  .el-input-number__decrease,
+  .el-input-number__increase {
+    background-color: var(--background-color);
+    border: inherit !important;
+
+    .el-icon {
+      color: var(--icon-color);
+    }
+
+    .el-icon:hover {
+      color: var(--hover-border-color);
+    }
+  }
+
+  // textarea
+  .el-textarea__inner {
+    border: 1px var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: none;
+  }
+
+  .el-textarea__inner:focus {
+    border: 1px var(--border-style) var(--hover-border-color);
+  }
+}
+
+.el-input-number:focus {
+  border: 1px var(--border-style) var(--hover-border-color) !important
+}
+
+// 禁用状态
+.is-disabled .el-input__wrapper {
+  background-color: var(--disabled-color) !important;
+  box-shadow: none  !important;
+}

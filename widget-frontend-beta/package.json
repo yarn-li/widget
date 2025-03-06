@@ -1,0 +1,18 @@
+{
+  "name": "@widget-frontend/widget-frontend-beta",
+  "version": "1.5.73",
+  "type": "module",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "http://172.16.1.205:8081/repository/npm-hosted/"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@widget-frontend/widget-frontend-core": "1.5.40",
+    "@widget-frontend/widget-frontend-luna": "1.5.40",
+    "element-plus": "^2.3.3",
+    "sortablejs": "^1.15.2",
+    "vuedraggable": "^4.1.0"
+  }
+}
+

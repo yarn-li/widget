@@ -1,0 +1,25 @@
+.datepickerStyle {
+  .el-input__wrapper {
+    border: 1px var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    box-shadow: none;
+
+    .el-input__inner,
+    .el-icon {
+      color: var(--text-color);
+      font-size: var(--icon-width);
+    }
+  }
+}
+
+.dateRangepickerStyle {
+  border: 1px var(--border-style) var(--border-color);
+  background-color: var(--background-color);
+  box-shadow: none !important;
+
+  .el-range-input,
+  .el-icon {
+    color: var(--text-color);
+  }
+}

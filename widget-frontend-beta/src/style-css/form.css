@@ -1,0 +1,22 @@
+.form-container .x-form-basic-widget .x-form-basic-widget__label .x-form-label {
+font-size: var(--w-font-size-small) !important;
+color: var(--w-text-color);
+font-weight: 700;
+}
+
+.form-container .x-form-basic-widget .x-widget-inner-el {
+font-size: var(--w-font-size-small) !important;
+color: var(--w-text-color);
+font-size: var(--w-font-size-small) !important;
+}
+
+.form-container .x-form-basic-widget .x-widget-inner-el .el-input {
+font-size: var(--w-font-size-small) !important;
+height: var(--w-line-height-base);
+}
+
+.form-container .x-form-basic-widget .x-widget-inner-el .el-select__wrapper {
+font-size: var(--w-font-size-small) !important;
+height: var(--w-line-height-base);
+min-height: var(--w-line-height-base);
+}

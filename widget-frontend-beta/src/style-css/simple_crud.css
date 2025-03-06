@@ -1,0 +1,53 @@
+.simple-crud {
+    padding: 12px 12px;
+    height: 100%;
+    overflow: auto;
+}
+
+.simple-crud .crud-query {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.simple-crud .crud-query .x-form-label {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.simple-crud .fullLine .overlay {
+    width: 100%
+}
+
+.simple-crud .curd-summary {
+    display: flex;
+    align-items: center
+}
+
+.simple-crud .curd-summary .curd-summary-item {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    line-height: 20px
+}
+
+.simple-crud .curd-summary .curd-summary-item .label {
+    margin: .5rem;
+    margin-right: 12px
+}
+
+.simple-crud .curd-summary .curd-summary-item .value {
+    font-weight: bold;
+    font-size: 18px
+}
+
+.crud-table {
+}
+
+.crud-pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}

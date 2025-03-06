@@ -1,0 +1,18 @@
+.selectStyle {
+  --el-select-border-color-hover: none;
+
+  .el-input__wrapper {
+    border: 1px var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    box-shadow: none;
+
+    .el-input__inner {
+      color: var(--text-color);
+    }
+  }
+
+  .el-input__wrapper:hover {
+    border: 1px var(--border-style) var(--border-color);
+  }
+}

@@ -1,0 +1,77 @@
+:root {
+    --active-color: #409EFF;
+  }
+
+.dialog-container {
+    height: 100%;
+    z-index: 2;
+    min-width: 40vw;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.dialog-container .focus-input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.dialog-container .dialog-container-header {
+    height: 60px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+.dialog-container .dialog-container-header .dialog-container-header__icon {
+    cursor: pointer;
+}
+
+.dialog-container .dialog-container-header .dialog-container-header__icon:hover {
+    color: var(--active-color);
+}
+
+.dialog-container .dialog-container-line {
+    margin:0 12px 12px;
+    border-bottom: 1px solid #dcdfe6;
+}
+
+.dialog-container  .dialog-container-main {
+    max-height: 60vh;
+    padding: 0 12px;
+    overflow: auto;
+}
+
+
+
+.dialog-container .dialog-container-footer {
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.dialog-container  .form-container {
+    /*display: flex !important;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+}
+
+.widget-view-dialog .form{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.widget-view-dialog > .form {
+    max-width: 90%;
+}
+
+.dialog-container .form-container {
+    justify-content: start;
+}
+
+.printBox .dialog-container-main{
+    height: max-content !important;
+}

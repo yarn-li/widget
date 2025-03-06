@@ -1,0 +1,12 @@
+.w-login-page {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.w-login-page .w-login-form {
+    /*position: absolute;*/
+    margin-right: 20%;
+}

@@ -1,0 +1,164 @@
+/* 全局变量文件 */
+:root {
+  /* 颜色变量 */
+  --w-primary-color: #0079fe; // 主色调，蓝色
+  --w-success-color: #67c23a; // 绿色
+  --w-warning-color: #e6a23c; // 橙色
+  --w-danger-color: #f56c6c; // 红色
+  --w-text-color: #333333; // 主要文字颜色
+  --w-background-color: #f4f4f4; // 背景颜色
+  --w-border-color: #dddddd; // 边框颜色
+  --w-table-header-border-color: #cccccc; // 表格标题边框颜色
+  --w-table-content-border-color: #f2f2f2; // 表格内容边框颜色
+  --w-table-content-hover-bg: #f5f7fa; // 表格内容悬停背景色
+  --w-pagination-bg-color: #0079fe; // 分页选中背景色
+
+  /* 字体相关 */
+  --w-font-family-chinese: '微软雅黑', sans-serif; // 中文字体
+  --w-font-family-english: 'Arial', sans-serif; // 英文字体
+
+  --w-font-size-large: 18px; // 大字体
+  --w-font-size-medium: 16px; // 中等字体
+  --w-font-size-base: 13px; // 基础字体
+  --w-font-size-tab: 13px;
+  --w-font-size-small: 12px; // 小字体
+  --w-font-size-error: 14px; // 错误提示字体
+  --w-pagination-font-size: 12px; // 分页字体大小
+  --w-pagination-border-height: 28px; // 分页边框高度
+
+  /* 页面大标题 */
+  --w-page-title-font-size: 24px; // 页面大标题字号
+  --w-page-title-font-family: var(
+    --w-font-family-english
+  ); // 页面大标题字体（英文字体）
+
+  /* 正文小标题 */
+  --w-body-subheading-font-size: 16px; // 正文小标题字号
+  --w-body-subheading-font-family: var(
+    --w-font-family-chinese
+  ); // 正文小标题（中文字体）
+
+  /* 标签栏小标题 / 表格标题 */
+  --w-tab-small-title-font-size: var(--w-font-size-medium); // 标签栏小标题字号
+  --w-table-title-font-size: var(--w-font-size-medium); // 表格标题字号
+
+  /* 正文小 */
+  --w-body-small-font-size: var(--w-font-size-base); // 正文字体大小
+
+  /* 链接文字 */
+  --w-link-font-size: var(--w-font-size-large); // 链接文字字号
+  --w-link-font-family: var(
+    --w-font-family-english
+  ); // 链接文字字体（英文字体）
+
+  /* 错误提示 */
+  --w-error-font-size: var(--w-font-size-error); // 错误提示字体大小
+  --w-error-color: var(--w-danger-color); // 错误提示颜色
+
+  /* 圆角设置 */
+  --w-border-radius-none: 0px; // 无圆角
+  --w-border-radius-small: 2px; // 小圆角
+  --w-border-radius-large: 4px; // 大圆角
+  --w-border-radius-circle: 30px; // 圆形圆角
+  --w-pagination-border-radius: 4px; // 分页圆角
+
+  /* 通用样式 */
+  --w-line-height: 1.5; // 行高
+  --w-line-height-base: 28px;
+  --w-font-weight-normal: normal; // 普通字体粗细
+  --w-font-weight-bold: bold; // 加粗字体
+  --w-font-weight-base: 700;
+
+  /* 表格相关颜色 */
+  --w-table-header-border-color: #cccccc; // 表格标题边框颜色
+  --w-table-content-border-color: #f2f2f2; // 表格内容边框颜色
+  --w-table-content-hover-bg: #f5f7fa; // 表格内容悬停背景色
+  --w-table-row-hover-bg: #f9f9f9; // 表格行悬停背景色
+  --w-table-body-row-color: #222222; // 表格行悬停背景色
+
+
+  /* 分页相关颜色 */
+  --w-pagination-bg-color: #0079fe; // 分页选中背景色
+  --w-pagination-border-radius: 4px; // 分页圆角
+  --w-pagination-font-size: 12px; // 分页字体大小
+  --w-pagination-border-height: 28px; // 分页边框高度
+
+  /* 按钮样式 */
+  --w-button-primary-bg: var(--w-primary-color); // 主按钮背景色
+  --w-button-primary-border: var(--w-primary-color); // 主按钮边框色
+  --w-button-primary-color: #ffffff; // 主按钮文字颜色
+  --w-button-secondary-bg: #e0e0e0; // 次按钮背景色
+  --w-button-secondary-border: #d1d1d1; // 次按钮边框色
+  --w-button-secondary-color: #333333; // 次按钮文字颜色
+  --w-button-hover-bg: darken(--w-primary-color, 10%); // 按钮悬停背景色
+  --w-button-hover-border: darken(--w-primary-color, 15%); // 按钮悬停边框色
+  --w-button-base-height: 28px; // 按钮基础高度
+  --w-button-size-base: 12px; // 按钮字体
+
+  /* 卡片样式 */
+  --w-card-bg-color: #ffffff; // 卡片背景色
+  --w-card-border: 1px solid #e0e0e0; // 卡片边框
+  --w-card-border-radius: 8px; // 卡片圆角
+  --w-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // 卡片阴影
+
+  /* 输入框样式 */
+  --w-input-bg-color: #ffffff; // 输入框背景色
+  --w-input-border: 1px solid #dddddd; // 输入框边框色
+  --w-input-border-focus: 1px solid var(--w-primary-color); // 输入框聚焦时边框色
+  --w-input-placeholder-color: #aaaaaa; // 输入框占位符颜色
+  --w-input-font-size: 14px; // 输入框字体大小
+  --w-input-border-radius: 4px; // 输入框圆角
+
+  /* 响应式设计 */
+
+  /* 屏幕小于768px */
+  --w-breakpoint-sm: 768px;
+
+  /* 屏幕小于1024px */
+  --w-breakpoint-md: 1024px;
+
+  /* 屏幕小于1440px */
+  --w-breakpoint-lg: 1440px;
+
+  /* 排版规范 */
+  --w-heading-font-size: 28px; // 主标题
+  --w-subheading-font-size: 22px; // 副标题
+
+  /* 列表样式 */
+  --w-list-item-font-size: var(--w-font-size-base); // 列表项字体大小
+  --w-list-item-color: #444444; // 列表项字体颜色
+  --w-list-item-border: 1px solid var(--w-border-color); // 列表项边框
+
+  /* 进度条 */
+  --w-progress-bar-bg-color: #f0f0f0; // 进度条背景色
+  --w-progress-bar-fill-color: var(--w-primary-color); // 进度条填充色
+  --w-progress-bar-height: 8px; // 进度条高度
+  --w-progress-bar-radius: 4px; // 进度条圆角
+
+  /* 提示框样式 */
+  --w-tooltip-bg-color: rgba(0, 0, 0, 0.7); // 提示框背景色
+  --w-tooltip-text-color: #ffffff; // 提示框文字颜色
+  --w-tooltip-border-radius: 4px; // 提示框圆角
+  --w-tooltip-font-size: 12px; // 提示框字体大小
+
+  /* 通用过渡 */
+  --w-transition-duration: 0.3s; // 动画过渡时长
+  --w-transition-ease: ease-in-out; // 动画过渡效果
+
+  /* 其他 */
+  --w-container-width: 1200px; // 容器最大宽度
+  --w-gutter: 16px; // 网格间距
+  --w-spacing-unit: 8px; // 基础间距单位
+  --w-border-radius: 4px; // 边框圆角
+
+  /* 列数 */
+  --w-column-number: 5;
+
+  --el-component-size: var(--w-line-height-base);
+}
+
+.el-range-editor--small.el-input__wrapper {
+  height: var(--w-line-height-base) !important;
+  min-height: var(--w-line-height-base) !important;
+  line-height: var(--w-line-height-base) !important;
+}

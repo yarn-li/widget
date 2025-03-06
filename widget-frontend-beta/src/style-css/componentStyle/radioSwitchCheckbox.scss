@@ -1,0 +1,45 @@
+.switchStyle {
+  .el-switch__core {
+    background-color: var(--background-color);
+  }
+}
+
+.switchStyle.is-checked {
+  .el-switch__core {
+    border-color: var(--active-color);
+    background-color: var(--active-color);
+  }
+}
+
+.radioAndCheckBoxStyle {
+
+  .el-radio__label,
+  .el-checkbox__label {
+    color: var(--text-color)
+  }
+
+  .is-checked {
+
+    .el-radio__label,
+    .el-checkbox__label {
+      color: var(--active-color)
+    }
+
+    .el-radio__inner,
+    .el-checkbox__inner {
+      border-color: var(--active-color);
+      background-color: var(--active-color);
+    }
+  }
+
+  .el-radio__label:hover,
+  .el-checkbox__label:hover {
+    color: var(--active-color)
+  }
+
+  .el-checkbox__inner:hover,
+  .el-radio__inner:hover {
+    border-color: var(--active-color);
+    background-color: var(--active-color);
+  }
+}

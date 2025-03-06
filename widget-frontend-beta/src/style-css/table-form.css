@@ -1,0 +1,32 @@
+.table-form {
+    margin-bottom: 8px;
+    padding-top: 40px;
+    width: 100%;
+    height: calc(100% - 50px);
+    position: relative;
+}
+
+.table-form .add-button {
+    position: absolute;
+    top: 0;
+}
+
+.table-form .w-base-table .x-form-basic-widget {
+    margin-top: 1.2rem !important;
+    margin-bottom: 1.2rem !important;
+}
+
+.table-form .w-base-table {
+    height: calc(100% - 20px);
+}
+
+.table-form .required {
+    position: relative;
+}
+.table-form .required:before {
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    content: '*';
+    color: #f56c6c
+}
