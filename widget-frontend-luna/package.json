@@ -1,0 +1,14 @@
+{
+  "name": "@widget-frontend/widget-frontend-luna",
+  "version": "1.5.40",
+  "type": "module",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "http://172.16.1.205:8081/repository/npm-hosted/"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@widget-frontend/widget-frontend-core": "1.5.40",
+    "element-plus": "^2.3.3"
+  }
+}
